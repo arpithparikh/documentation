@@ -3,6 +3,8 @@
 References
 ==========
 
+**Please remember all values are case sensitive**
+-------------------------------------------------
 
 Encodings
 ---------
@@ -40,11 +42,7 @@ The following standardized list of school years are supported in Handshake::
    Doctorate
    Postdoctoral Studies
    Alumni
-   
-The fields below are deprecated. They are still supported on the api, but will map to the value in parentheses::
 
-   Graduate (Masters)
-   Post Graduate (Doctorate)
 
 Gender
 ------
@@ -86,13 +84,9 @@ The following standardized list of education levels are supported in Handshake::
    Doctorate
    Postdoctoral Studies
 
-The fields below are deprecated. They are still supported on the api, but will map to the value in parentheses::
-
-   Graduate (Masters)
-   Postgraduate (Doctorate)
 
 Administrative Roles
-----------
+----------------------
 The following roles are supported in Handshake::
 
    Experiences
