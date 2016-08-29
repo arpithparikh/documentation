@@ -9,9 +9,12 @@ Below you will find tips, requirements, and an explanation of the different file
 File Requirements
 --------------------------
 
-- All headers are case-sensitive; Must be downcased
+- All headers are case-sensitive; **Must be downcased**
 - All preset values are case-sensitive; Casing varies
-- File must be exported in .CSV format
+- File **must be** exported in a true .CSV format
+- File **may not** be another file type with a .CSV extension added to it
+- File **may not** include CRLF terminators, any line breaks will result in immediate failure
+- File **may not** have trailing commas (or additional columns), this will result in immediate failure
 - File must be exported in Unicode (UTF-8)
 
 Note: Not exporting to UTF-8 can cause bad encoding issues, which can lead to poorly translated records or failure to sync/import correctly. For information on how to export or convert your file to UTF-8, please see: http://help.meetedgar.com/article/107-help-how-do-i-export-my-spreadsheet-to-a-utf-8-encoded-csv
