@@ -232,6 +232,7 @@ Header                                                     Value
 ========================================================== ==================================================================
 \*name                                                     The name of the appointment type
 \*length                                                   The length of the appointment type in minutes (Integer)
+id                                                         The ID of the appointment you wish to update.  Note this is optional and only required if you're updating appointments and know the Handshake ID. Normally you can get this though Handshake Insights. 
 description                                                A description of the appointment type
 pre_survey_id                                              The ID of a Handshake survey that the student will fill out as part of their appointment request
 post_survey_id                                             The ID of a Handshake survey that will be sent to the student following their appointment
