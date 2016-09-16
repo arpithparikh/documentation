@@ -123,6 +123,7 @@ system_label_names                        Semi-colon separated list of label nam
 assigned_to_email_address                 Email Address of staff member the student is assigned to
 profile_review_status                     This can be used to manage a students review status. Set this to "approved" if this student will not need a profile review. (Not relevant if profile review is not turned on for your school). All options: ['unsubmitted', 'pending', 'approved'].
 document_review_status                    This can be used to manage a students document review status. Set this to "automatically_approved" if this student will not need documents approved. (Not relevant if document review is not turned on for your school). All options: ['no_pending_documents' 'pending_documents' 'automatically_approved']
+location_attributes:name                  This is a location field you can add to a student.  Note this is not yet implemented yet, but adding for future use. 
 ========================================= ==================================================================
 
 
@@ -231,6 +232,7 @@ Header                                                     Value
 ========================================================== ==================================================================
 \*name                                                     The name of the appointment type
 \*length                                                   The length of the appointment type in minutes (Integer)
+id                                                         The ID of the appointment you wish to update.  Note this is optional and only required if you're updating appointments and know the Handshake ID. Normally you can get this though Handshake Insights. 
 description                                                A description of the appointment type
 pre_survey_id                                              The ID of a Handshake survey that the student will fill out as part of their appointment request
 post_survey_id                                             The ID of a Handshake survey that will be sent to the student following their appointment
