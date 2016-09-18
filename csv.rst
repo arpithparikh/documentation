@@ -9,9 +9,12 @@ Below you will find tips, requirements, and an explanation of the different file
 File Requirements
 --------------------------
 
-- All headers are case-sensitive; Must be downcased
+- All headers are case-sensitive; **Must be downcased**
 - All preset values are case-sensitive; Casing varies
-- File must be exported in .CSV format
+- File **must be** exported in a true .CSV format
+- File **may not** be another file type with a .CSV extension added to it
+- File **may not** include CRLF terminators, any line breaks will result in immediate failure
+- File **may not** have trailing commas (or additional columns), this will result in immediate failure
 - File must be exported in Unicode (UTF-8)
 
 Note: Not exporting to UTF-8 can cause bad encoding issues, which can lead to poorly translated records or failure to sync/import correctly. For information on how to export or convert your file to UTF-8, please see: http://help.meetedgar.com/article/107-help-how-do-i-export-my-spreadsheet-to-a-utf-8-encoded-csv
@@ -120,6 +123,7 @@ system_label_names                        Semi-colon separated list of label nam
 assigned_to_email_address                 Email Address of staff member the student is assigned to
 profile_review_status                     This can be used to manage a students review status. Set this to "approved" if this student will not need a profile review. (Not relevant if profile review is not turned on for your school). All options: ['unsubmitted', 'pending', 'approved'].
 document_review_status                    This can be used to manage a students document review status. Set this to "automatically_approved" if this student will not need documents approved. (Not relevant if document review is not turned on for your school). All options: ['no_pending_documents' 'pending_documents' 'automatically_approved']
+location_attributes:name                  This is a location field you can add to a student.  Note this is not yet implemented yet, but adding for future use. 
 ========================================= ==================================================================
 
 
@@ -228,6 +232,7 @@ Header                                                     Value
 ========================================================== ==================================================================
 \*name                                                     The name of the appointment type
 \*length                                                   The length of the appointment type in minutes (Integer)
+id                                                         The ID of the appointment you wish to update.  Note this is optional and only required if you're updating appointments and know the Handshake ID. Normally you can get this though Handshake Insights. 
 description                                                A description of the appointment type
 pre_survey_id                                              The ID of a Handshake survey that the student will fill out as part of their appointment request
 post_survey_id                                             The ID of a Handshake survey that will be sent to the student following their appointment
@@ -288,7 +293,7 @@ The items can be a contact, user, job, appointment, or event.
 Header                              Value
 =================================== ==================================================================
 \*identifiable_type                 One of [User, Contact, Job, Appointment, Event]. Case sensitive.
-\*\*identifiable_id                 The id of the identifiable.
+\*\*identifiable_id                 The Handshake ID of the identifiable (found in URL) **Do not include unless you are linking an appointment or event created in Handshake**
 \*\*identifier                      If the identifiable_type is a User or contact, this is email. Otherwise it is the import_identifier
 \*user_type                         If the identifiable_type is a User, the user_type must be specified.
 content                             The note contents
@@ -315,7 +320,7 @@ This will simply apply labels. If a label already exists it will not apply a dup
 Header                              Value
 =================================== ==================================================================
 \*identifiable_type                 One of [User, Contact, Job, Appointment, Event]. Case sensitive.
-\*\*identifiable_id                 The id of the identifiable.
+\*\*identifiable_id                 The Handshake ID of the identifiable (found in URL) **Do not include unless you are linking an appointment or event created in Handshake**
 \*\*identifier                      If the identifiable_type is a User or contact, this is email. Otherwise it is the import_identifier
 \*user_type                         If the identifiable_type is a User, the user_type must be specified.
 label_type                          Either 'normal' or 'public'. Defaults to 'normal'.
