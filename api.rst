@@ -539,7 +539,7 @@ Key                                 Value
 \*physical_application_instructions Instructions on how a student should submit a physical application. This is required if the application medium is 'offline'
 description                         Description of the job
 job_function_names                  An array of job function names which must be one of the system job functions.
-location_name                       The location of the job
+locations_attributes                An array of hashes containing a "name" field. Each "name" field should represent a location for the job.
 salary_type                         The salary type. Must be one of the system salary types
 contact_email                       The email of the contact to be associated with the job. Must match with an existing contact
 expiration_date                     The date the posting should expire. yyyy-mm-dd
