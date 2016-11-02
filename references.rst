@@ -26,8 +26,9 @@ Dates
 -----
 | When using dates or datetimes in the CSV or API, please provide them in one of the following formats:
 | yyyy-mm-dd
-| yyyy-mm-dd hh:mm:ss (assumes UTC time)  
-| yyyy-mm-dd hh:mm:ss offset (where timezone offset is either + or -, and hhmm)  
+| yyyy-mm-ddThh:mm:ss (assumes UTC time if no offset is present)  
+| yyyy-mm-ddThh:mm:ss offset (where timezone offset is either + or -, and hh:mm)  
+| **Example with offset: 2016-11-01T08:15:00-08:00**
 
 School Years
 ------------
@@ -146,8 +147,8 @@ Employment Type Names
 
 The following standardized list of employment types is supported in Handshake::
 
-   Full Time
-   Part Time
+   Full-Time
+   Part-Time
    Seasonal
 
 Ethnicity
@@ -172,44 +173,54 @@ The following standardized list of industries are supported in Handshake::
     Accounting
     Advertising, PR & Marketing
     Aerospace
-    Agriculture, Farming, & Ranching
-    Architecture and Civil Engineering
+    Animal & Wildlife
+    Architecture and Planning
     Automotive
     Biotech & Life Sciences
+    Civil Engineering
     Commercial Banking & Credit
-    Computer Systems
+    Computer Networking
     Construction
+    CPG - Consumer Packaged Goods
     Defense
     Design
     Electronic & Computer Hardware
+    Environmental Services
+    Farming, Ranching and Fishing
     Fashion
-    Food / Beverage & Consumer Goods
+    Food & Beverage
     Forestry
     Government - Local, State & Federal
     Healthcare
     Higher Education
     Hotels & Accommodation
+    Human Resources
     Insurance
+    Interior Design
     International Affairs
     Internet & Software
     Investment Banking
     Investment / Portfolio Management
-    Journalism, Digital Media & Publishing
+    Journalism, Media & Publishing
     K-12 Education
     Legal & Law Enforcement
     Management Consulting
     Manufacturing - Other
     Medical Devices
-    Movies, TV, Radio
+    Movies, TV, Music
+    Natural Resources
+    NGO
     Non-Profit - Other
-    Oil, Gas, & Natural Resources
+    Oil & Gas
+    Other Agriculture
     Other Education
     Other Industries
     Performing and Fine Arts
     Pharmaceuticals
     Politics
     Real Estate
-    Religious work
+    Religious Work
+    Research
     Restaurants & Food Service
     Retail Stores
     Scientific and Technical Consulting
@@ -220,94 +231,54 @@ The following standardized list of industries are supported in Handshake::
     Transportation & Logistics
     Utilities and Renewable Energy
     Veterinary
-    Wholesale Trade  
+    Wholesale Trade
 
 Job Functions
 -------------
 
 The following standardized list of job functions are supported in Handshake::
 
-    Account Management/Planning
-    Accounting/Auditing
+    Accounting
+    Actuary
     Administration
-    Administrative/Support Services
-    Advertising
-    Advocacy
-    Analyst
-    Animal Care
-    Bookkeeping
-    Brand Management
-    Broadcasting
+    Advertising, Media & PR
+    Architecture & Planning
     Business Development
-    Buying/Purchasing
-    Childcare
-    Childcare
-    Coaching
-    Community Service
-    Computer Drafting and Design
-    Conflict Resolution
-    Construction/Contracting
+    Community & Social Services
+    Construction / Contracting
     Consulting
     Counseling
-    Creative/Design/Multimedia
-    Curriculum Development
-    Customer Service
-    Cyber Security
-    Data Entry
-    Data Management
-    Database Management
-    Distribution
-    Domestic Care/Services
-    Economic/Community Development
-    Engineering
-    Entrepreneur
-    Event Planning
+    Customer/Technical Support
+    Data & Analytics
+    Design / Art
+    Education / Teaching / Training
+    Engineering - Civil / Mechanical / Other
+    Engineering - Web / Software
+    Entrepreneurship
+    Environmental / Sustainability Mgmt
     Finance
-    Financial Planning
-    Fundraising/Development
-    Game Design
-    Graphic Design
-    Health Services/Healthcare
-    Horticulture
-    Hotel/Restaurant/Hospitality
+    Fundraising & Event Management
+    General Management
+    Healthcare Services
+    Hotel / Restaurant / Hospitality
     Human Resources
-    Information Management/MIS
-    Interactive Media
-    IT/Systems
-    Law
-    Library Science
-    Management
-    Marketing
-    Not Specified
-    Operations
+    Information Technology
+    Legal
+    Logistics & Supply Chain
+    Marketing - Brand Management
+    Marketing - General
+    Military & Protective Services
+    Operations / Production
     Other
-    Political Organization/Lobbying
-    Product Management
-    Production
-    Programming/Software Development
-    Project Management
-    Psychology
-    Public Relations
-    Quality Control/Assurance
-    Reporting
+    Political Organizing / Lobbying
+    Product / Project Management
+    Purchasing
+    Quality Assurance
+    Real Estate
     Research
-    Risk Management/Assessment
     Sales
-    Skilled Labor
-    Social Work
-    Supply Chain Management/Logistics
-    Sustainability
-    Tax
-    Teaching/Education
-    Technical Support
-    Technician
-    Therapy
-    Training
-    Urban and Regional Planning
-    Volunteer
-    Warehousing/Materials Management
-    Web Design
-    Web Development
+    Veterinary / Animal Care
+    Writing / Editing
 
 
 Time Zone Options
