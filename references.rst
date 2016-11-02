@@ -173,44 +173,54 @@ The following standardized list of industries are supported in Handshake::
     Accounting
     Advertising, PR & Marketing
     Aerospace
-    Agriculture, Farming, & Ranching
-    Architecture and Civil Engineering
+    Animal & Wildlife
+    Architecture and Planning
     Automotive
     Biotech & Life Sciences
+    Civil Engineering
     Commercial Banking & Credit
-    Computer Systems
+    Computer Networking
     Construction
+    CPG - Consumer Packaged Goods
     Defense
     Design
     Electronic & Computer Hardware
+    Environmental Services
+    Farming, Ranching and Fishing
     Fashion
-    Food / Beverage & Consumer Goods
+    Food & Beverage
     Forestry
     Government - Local, State & Federal
     Healthcare
     Higher Education
     Hotels & Accommodation
+    Human Resources
     Insurance
+    Interior Design
     International Affairs
     Internet & Software
     Investment Banking
     Investment / Portfolio Management
-    Journalism, Digital Media & Publishing
+    Journalism, Media & Publishing
     K-12 Education
     Legal & Law Enforcement
     Management Consulting
     Manufacturing - Other
     Medical Devices
-    Movies, TV, Radio
+    Movies, TV, Music
+    Natural Resources
+    NGO
     Non-Profit - Other
-    Oil, Gas, & Natural Resources
+    Oil & Gas
+    Other Agriculture
     Other Education
     Other Industries
     Performing and Fine Arts
     Pharmaceuticals
     Politics
     Real Estate
-    Religious work
+    Religious Work
+    Research
     Restaurants & Food Service
     Retail Stores
     Scientific and Technical Consulting
@@ -221,7 +231,7 @@ The following standardized list of industries are supported in Handshake::
     Transportation & Logistics
     Utilities and Renewable Energy
     Veterinary
-    Wholesale Trade  
+    Wholesale Trade
 
 Job Functions
 -------------
@@ -242,10 +252,10 @@ The following standardized list of job functions are supported in Handshake::
     Data & Analytics
     Design / Art
     Education / Teaching / Training
-    Engineering - Civil / Mechanical...
+    Engineering - Civil / Mechanical / Other
     Engineering - Web / Software
     Entrepreneurship
-    Environmental / Sustainability M...
+    Environmental / Sustainability Mgmt
     Finance
     Fundraising & Event Management
     General Management
