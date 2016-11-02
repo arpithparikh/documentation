@@ -26,8 +26,9 @@ Dates
 -----
 | When using dates or datetimes in the CSV or API, please provide them in one of the following formats:
 | yyyy-mm-dd
-| yyyy-mm-dd hh:mm:ss (assumes UTC time)  
-| yyyy-mm-dd hh:mm:ss offset (where timezone offset is either + or -, and hhmm)  
+| yyyy-mm-ddThh:mm:ss (assumes UTC time if no offset is present)  
+| yyyy-mm-ddThh:mm:ss offset (where timezone offset is either + or -, and hh:mm)  
+| Example with offset: 2016-11-01T08:15:00-08:00
 
 School Years
 ------------
