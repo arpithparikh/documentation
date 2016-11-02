@@ -228,87 +228,47 @@ Job Functions
 
 The following standardized list of job functions are supported in Handshake::
 
-    Account Management/Planning
-    Accounting/Auditing
+    Accounting
+    Actuary
     Administration
-    Administrative/Support Services
-    Advertising
-    Advocacy
-    Analyst
-    Animal Care
-    Bookkeeping
-    Brand Management
-    Broadcasting
+    Advertising, Media & PR
+    Architecture & Planning
     Business Development
-    Buying/Purchasing
-    Childcare
-    Childcare
-    Coaching
-    Community Service
-    Computer Drafting and Design
-    Conflict Resolution
-    Construction/Contracting
+    Community & Social Services
+    Construction / Contracting
     Consulting
     Counseling
-    Creative/Design/Multimedia
-    Curriculum Development
-    Customer Service
-    Cyber Security
-    Data Entry
-    Data Management
-    Database Management
-    Distribution
-    Domestic Care/Services
-    Economic/Community Development
-    Engineering
-    Entrepreneur
-    Event Planning
+    Customer/Technical Support
+    Data & Analytics
+    Design / Art
+    Education / Teaching / Training
+    Engineering - Civil / Mechanical...
+    Engineering - Web / Software
+    Entrepreneurship
+    Environmental / Sustainability M...
     Finance
-    Financial Planning
-    Fundraising/Development
-    Game Design
-    Graphic Design
-    Health Services/Healthcare
-    Horticulture
-    Hotel/Restaurant/Hospitality
+    Fundraising & Event Management
+    General Management
+    Healthcare Services
+    Hotel / Restaurant / Hospitality
     Human Resources
-    Information Management/MIS
-    Interactive Media
-    IT/Systems
-    Law
-    Library Science
-    Management
-    Marketing
-    Not Specified
-    Operations
+    Information Technology
+    Legal
+    Logistics & Supply Chain
+    Marketing - Brand Management
+    Marketing - General
+    Military & Protective Services
+    Operations / Production
     Other
-    Political Organization/Lobbying
-    Product Management
-    Production
-    Programming/Software Development
-    Project Management
-    Psychology
-    Public Relations
-    Quality Control/Assurance
-    Reporting
+    Political Organizing / Lobbying
+    Product / Project Management
+    Purchasing
+    Quality Assurance
+    Real Estate
     Research
-    Risk Management/Assessment
     Sales
-    Skilled Labor
-    Social Work
-    Supply Chain Management/Logistics
-    Sustainability
-    Tax
-    Teaching/Education
-    Technical Support
-    Technician
-    Therapy
-    Training
-    Urban and Regional Planning
-    Volunteer
-    Warehousing/Materials Management
-    Web Design
-    Web Development
+    Veterinary / Animal Care
+    Writing / Editing
 
 
 Time Zone Options
