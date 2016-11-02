@@ -28,7 +28,7 @@ Dates
 | yyyy-mm-dd
 | yyyy-mm-ddThh:mm:ss (assumes UTC time if no offset is present)  
 | yyyy-mm-ddThh:mm:ss offset (where timezone offset is either + or -, and hh:mm)  
-| Example with offset: 2016-11-01T08:15:00-08:00
+| **Example with offset: 2016-11-01T08:15:00-08:00**
 
 School Years
 ------------
@@ -147,8 +147,8 @@ Employment Type Names
 
 The following standardized list of employment types is supported in Handshake::
 
-   Full Time
-   Part Time
+   Full-Time
+   Part-Time
    Seasonal
 
 Ethnicity
