@@ -89,9 +89,9 @@ school_year_name                          The name of student’s school year. F
 primary_education:education_level_name    This shows up on their main education on their profile. For a list of acceptable values see the references section.  Can only have one.
 primary_education:cumulative_gpa          (Decimal) The student's cumulative GPA
 primary_education:department_gpa          (Decimal) Decimal of student's departmental GPA
-primary_education:major_names             (String Array) An array of major names for this student. Semicolon separated list. "major1";"major2";"major3" These must be majors configured in the school's majors list.
-primary_education:minor_names             (String Array) An array of minor names for this student. Semicolon separated list. "minor1";"minor2";"minor3" These must be minors configured in the school's minors list.
-primary_education:college_name            (String) The college the student belongs to. Must be one of the colleges configured in the school's college list. Can only have one college
+primary_education:major_names             (String Array) An array of major names for this student. Semicolon separated list. "major1;major2;major3" These must be majors configured in the school's majors list. **Quotation is only necessary in the event of special characters being used**
+primary_education:minor_names             (String Array) An array of minor names for this student. Semicolon separated list. "minor1;minor2;minor3" These must be minors configured in the school's minors list. **Quotation is only necessary in the event of special characters being used**
+primary_education:college_name            (String) The college the student belongs to. Must be one of the colleges configured in the school's college list. **Can only have one college**
 primary_education:start_date              (Date) The date the student started at the school in any standard date format. See references for date formats.
 primary_education:end_date                (Date) The date the student graduated or plans to graduate school (can be blank if currently_attending is set). Must be after the education start date. See references for date formats.
 primary_education:currently_attending     (Boolean) Should be set to true if education_end_date is blank. This signifies they are currently attending this school.
@@ -117,7 +117,7 @@ skill_names                               Semi-colon separated list of skills. T
 external_link_urls                        Semi-colon separated list of external links for the profile
 disabled                                  Pass true if this student should not be able to login and access Handshake.
 work_study_eligible                       Pass true if this student is eligible for work study jobs
-campus_name                               The name of the campus the student is at. Must be one of the campuses set up in your settings.
+campus_name                               The name of the campus the student is at. Must be one of the campuses set up in your settings. **May only have one campus**
 mobile_number                             The user's mobile phone number. The format should follow the following format: (999)999-9999 Ext:9999
 system_label_names                        Semi-colon separated list of label names to apply to the user
 assigned_to_email_address                 Email Address of staff member the student is assigned to
