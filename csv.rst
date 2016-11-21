@@ -99,6 +99,7 @@ card_id                                   (String) Used for checking in students
 work_authorization_name                   One of "U.S. Citizen", "Student (F-1) Visa", "J-1 Visa (Exchange Program)", "Permanent U.S. Resident", "Employment (H-1) Visa", "TN Visa", "L1 Visa", "Work Card","H4 Visa"
 ethnicity                                 The ethnicity of the user. Can only have one.  See the reference section for options.
 gender                                    The gender of the user. One of "Male", "Female", "Other", or blank (Not specified)
+opt_cpt_eligible													(Boolean) Should be set to true if the student is opt/cpt eligible. 
 ========================================= ==========================================================================================
 
 Optional Fields
