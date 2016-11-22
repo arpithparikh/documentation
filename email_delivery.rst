@@ -38,12 +38,12 @@ We send notifications from a dedicated set of IP addresses, you can whitelist th
 Regular Notifications are sent from: (notifications.joinhandshake.com)
 
 * ``192.237.158.52``
-* ``192.237.159.133``
 
 Mass emails are sent from (mail.joinhandshake.com)
 
 * ``192.237.159.131``
 * ``192.237.159.132``
+* ``192.237.159.133``
 
 Whitelist by Email Address
 ##########################
