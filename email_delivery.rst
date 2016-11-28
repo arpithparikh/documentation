@@ -35,7 +35,7 @@ Whitelist by IP
 
 We send notifications from a dedicated set of IP addresses, you can whitelist these.
 
-Regular Notifications are sent from: (notifications.joinhandshake.com)
+Regular Notifications are sent from: (notifications.joinhandshake.com and m.joinhandshake.com)
 
 * ``192.237.158.52``
 
