@@ -44,7 +44,7 @@ For more information see this article.
 
 Once you have the CLI set up, uploading your data is as simple as issuing the following command::
 
-  aws s3 cp [/path/your_local_file] s3://handshake-importer-uploads/[your folder]/[yyyymmdd]_users.csv] 
+  aws s3 cp [/path/your_local_file] s3://handshake-importer-uploads/[your folder]/[yyyymmdd]_users.csv 
 
 Hanshake has one aws bucket 'handshake-importer-uploads' and every school has a unique folder which comes after the bucket which they only have write access to upload files.
 
