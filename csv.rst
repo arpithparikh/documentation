@@ -124,7 +124,6 @@ system_label_names                        Semi-colon separated list of label nam
 assigned_to_email_address                 Email Address of staff member the student is assigned to
 profile_review_status                     This can be used to manage a students review status. Set this to "approved" if this student will not need a profile review. (Not relevant if profile review is not turned on for your school). All options: ['unsubmitted', 'pending', 'approved'].
 document_review_status                    This can be used to manage a students document review status. Set this to "automatically_approved" if this student will not need documents approved. (Not relevant if document review is not turned on for your school). All options: ['no_pending_documents' 'pending_documents' 'automatically_approved']
-location_attributes:name                  This is a location field you can add to a student.  Note this is not yet implemented yet, but adding for future use. 
 ========================================= ==================================================================
 
 
